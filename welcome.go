@@ -1,5 +1,5 @@
 package module_panutan
 
-func Welcome() string {
-	return "WELCOME TO THE JUNGLE"
+func Welcome(text string) string {
+	return "WELCOME TO THE JUNGLE" + text
 }
